@@ -1,0 +1,43 @@
+body
+{
+    text-align: center;
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+.heading{
+    margin-top: 0px;
+    width: 100%;
+    font-size: 35px;
+    font-family: 'Special Elite', cursive;
+}
+
+#instructions{
+    background-color: white;
+    color: black;
+    width: fit-content;
+    margin-left: 450px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Luxurious Roman', cursive;
+}
+
+#play_btn{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: blue;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+canvas {
+    background-color: #FFA500;
+    border: 5px solid crimson;
+}
